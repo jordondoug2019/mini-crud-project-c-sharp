@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>The Games Collection</h1>
+    <form action="javascript:void(0);" onsubmit="addGame()">
+        <label for="name">Enter Game Name:</label>
+        <input type="text" id="name">
+
+        <label for="genre"> Enter Game Genre: </label>
+        <input type="text" id="genre">
+
+        <label for="date">Enter Date Released: </label>
+        <input type="text" id="date">
+
+        <label for="gsynopsis">Enter Game Synopsis: </label>
+        <input type="text" id="gsynopsis">
+
+        <button>Add Game</button>
+    </form>
+    <ul id='gameList'>
+
+    </ul>
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>
